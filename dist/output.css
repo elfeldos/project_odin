@@ -544,6 +544,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -552,8 +572,16 @@ video {
   display: grid;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .items-center {
@@ -564,9 +592,63 @@ video {
   justify-content: center;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-odin-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 0 255 / var(--tw-bg-opacity));
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -578,12 +660,17 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 body {
   background-color: #273444;
 }
 
 .body {
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
 .header {
@@ -603,8 +690,36 @@ body {
   grid-column: 4;
 }
 
+#grid-item4 {
+  grid-column: 1;
+}
+
+#grid-item5 {
+  grid-column: 2 / 6;
+}
+
+#grid-item6 {
+  grid-column: 1;
+}
+
+#grid-item7 {
+  grid-column: 2 / 6;
+}
+
+#grid-item8 {
+  grid-column: 1;
+}
+
+#grid-item9 {
+  grid-column: 2 / 6;
+}
+
 .footer {
-  background-color: #FFFFFF;
+  background-color: #273444;
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
 }
 
 .hover\:text-odin-blue:hover {
@@ -613,16 +728,8 @@ body {
 }
 
 @media (min-width: 995px) {
-  .lg\:items-end {
-    align-items: flex-end;
-  }
-
   .lg\:justify-end {
     justify-content: flex-end;
-  }
-
-  .lg\:pl-20 {
-    padding-left: 5rem;
   }
 }
 

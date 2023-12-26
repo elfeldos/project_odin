@@ -7,7 +7,7 @@ body {
 }
 
 .body {
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .header {
@@ -27,6 +27,34 @@ body {
     grid-column: 4;
 }
 
+#grid-item4 {
+    grid-column: 1;
+}
+
+#grid-item5 {
+    grid-column: 2 / 6;
+}
+
+#grid-item6 {
+    grid-column: 1;
+}
+
+#grid-item7 {
+    grid-column: 2 / 6;
+}
+
+#grid-item8 {
+    grid-column: 1;
+}
+
+#grid-item9 {
+    grid-column: 2 / 6;
+}
+
 .footer {
-    background-color: #FFFFFF;
+    background-color: #273444;
+    height: 56px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
 }
