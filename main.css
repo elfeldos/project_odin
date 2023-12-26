@@ -53,8 +53,12 @@ body {
 
 .footer {
     background-color: #273444;
+    color: #FFFFFF;
     height: 56px;
-    position: fixed;
-    bottom: 0;
     text-align: center;
+
+}
+
+.imprint {
+    color: #FFFFFF;
 }

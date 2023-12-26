@@ -548,20 +548,12 @@ video {
   margin-bottom: 2.75rem;
 }
 
-.mb-9 {
-  margin-bottom: 2.25rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .ml-9 {
   margin-left: 2.25rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .flex {
@@ -570,10 +562,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
@@ -631,6 +619,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -639,16 +637,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
 .pb-9 {
   padding-bottom: 2.25rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .text-left {
@@ -660,9 +658,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[\#FFFFFF\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 body {
@@ -716,10 +714,13 @@ body {
 
 .footer {
   background-color: #273444;
+  color: #FFFFFF;
   height: 56px;
-  position: fixed;
-  bottom: 0;
   text-align: center;
+}
+
+.imprint {
+  color: #FFFFFF;
 }
 
 .hover\:text-odin-blue:hover {
