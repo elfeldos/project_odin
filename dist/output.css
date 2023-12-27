@@ -624,8 +624,7 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
+.pb-1 {
   padding-bottom: 0.25rem;
 }
 
@@ -643,10 +642,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 
 .text-left {
@@ -715,8 +710,11 @@ body {
 .footer {
   background-color: #273444;
   color: #FFFFFF;
-  height: 56px;
+  height: 50px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
 }
 
 .imprint {
