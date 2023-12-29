@@ -28,27 +28,27 @@ body {
 }
 
 #grid-item4 {
-    grid-column: 1;
+    grid-column: 2;
 }
 
 #grid-item5 {
-    grid-column: 2 / 6;
+    grid-column: 3 / 6;
 }
 
 #grid-item6 {
-    grid-column: 1;
+    grid-column: 2;
 }
 
 #grid-item7 {
-    grid-column: 2 / 6;
+    grid-column: 3 / 6;
 }
 
 #grid-item8 {
-    grid-column: 1;
+    grid-column: 2;
 }
 
 #grid-item9 {
-    grid-column: 2 / 6;
+    grid-column: 3 / 6;
 }
 
 .footer {
